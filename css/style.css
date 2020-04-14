@@ -262,7 +262,7 @@ body{
 }
 /*---start-footer-----*/
 .footer{
-	background:#45B39E;
+	background:#BF1604;
 	padding: 50px 0;
 	position:relative;
 }
@@ -271,7 +271,7 @@ body{
 	position:absolute;
 	width: 0;
 	height: 0;
-	border:20px solid #45B39E;
+	border:20px solid #BF1604;
 	border-top: 0 solid rgba(0, 0, 0, 0)!important;
 	border-right: 15px solid rgba(0, 0, 0, 0)!important;
 	border-left: 15px solid rgba(0, 0, 0, 0)!important;
