@@ -36,7 +36,7 @@ body{
 /*----start-header-----*/
 .header{
 	background: #BF1604;
-	border-bottom:2px solid rgba(255, 255, 255, 0.651) );
+	border-bottom:2px solid rgba(255, 255, 255, 0.651);
 }
 .logo{
 	float: left;
