@@ -72,7 +72,7 @@ body{
 .content {
 }
 .content_top{
-	background: rgb(182, 179, 176);
+	background: rgba(182, 179, 176, 0.507);
 	padding:50px 0;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
