@@ -53,20 +53,21 @@ body{
 .top-nav ul li a{
 	font-family: 'Roboto', sans-serif;
 	color: #d6d6d6;
-	padding: 40px 25px;
+	padding: 45px 40px;
 	display: block;
 	position: relative;
 	text-transform: uppercase;
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
-	font-size: 0.875em;
+	font-size: 0.9em;
 	position:relative;
 	text-decoration: none;
+	font-weight: bold;
 }
-.top-nav li.active a, .top-nav li a:hover {
-	color:rgb(0, 0, 0);
-	background:rgb(255, 255, 255);
+.top-nav li.inactive a, .top-nav li a:hover {
+	color: #ffffff;
+	background: #373434;
 }
 /*---start-content----*/
 .content {
@@ -143,9 +144,10 @@ body{
 	padding: 8px 0;
 	margin-bottom: 8px;
 	font-size: 1.6em;
-	color:#00B895;
+	color:#BF1604;
 	border-bottom: 1px solid #dedede;
 	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
 }
 .grid p{
 	font-size: 0.875em;
@@ -157,7 +159,7 @@ body{
 .button{
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
-	background-color:#00B895;
+	background-color:#BF1604;
 	display: inline-block;
 	text-transform: uppercase;
 	padding: 10px 30px;
