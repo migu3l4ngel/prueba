@@ -37,7 +37,7 @@ body{
 /*----start-header-----*/
 .header{
 	background: rgb(0, 0, 0);
-	border-bottom:2px solid rgba(255, 255, 255, 0.651);
+	border-bottom:2px solid  #f7c10a;
 }
 .logo{
 	float: left;
@@ -51,8 +51,8 @@ body{
 	float:left;
 }
 .top-nav ul li a{
-	font-family: 'Roboto', sans-serif;
-	color: #ffffff;
+	font-family: 'DM Serif Text', serif;
+	color: #f7c10a;
 	padding: 45px 40px;
 	display: block;
 	position: relative;
@@ -60,14 +60,18 @@ body{
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
-	font-size: 0.9em;
+	font-size: 1.1em;
 	position:relative;
 	text-decoration: none;
-	font-weight: bold;
 }
 .top-nav li.inactive a, .top-nav li a:hover {
-	color: #161515;
-	background: #ffffff;
+	color: #ffffff;
+	font-size: 1.2em;
+	background:  #f7c10a;
+	-webkit-transition: 0.1s ease;
+	transition: 0.1 ease;
+	-o-transition: 0.1s ease;
+	-webkit-box-shadow:  0px 56px 36px -10px #121D12;
 }
 /*---start-content----*/
 .content_top{
@@ -128,7 +132,7 @@ body{
 	float: left;
 	width: 29%;
 	background: rgb(0, 0, 0);
-	border: 1px solid #EBEBEB;
+	border: 1px solid  #f7c10a;
 	padding: 19px 18px 25px;
 	color: #7e7e7e;
 	text-align: center;
@@ -142,10 +146,9 @@ body{
 	padding: 8px 0;
 	margin-bottom: 8px;
 	font-size: 1.6em;
-	color:rgb(255, 255, 255);
+	color: #f7c10a;
 	border-bottom: 1px solid #dedede;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-weight: bold;
+	font-family: 'DM Serif Text', serif;
 }
 .grid p{
 	font-size: 0.875em;
@@ -157,7 +160,7 @@ body{
 .button{
 	font-family: 'Roboto', sans-serif;
 	color: #000000;
-	background-color:rgb(255, 255, 255);
+	background-color: #f7c10a;
 	display: inline-block;
 	text-transform: uppercase;
 	padding: 10px 30px;
@@ -168,7 +171,7 @@ body{
 	text-decoration: none;
 }
 .button:hover{
-	background-color: rgb(163, 162, 162);
+	background-color: rgb(255, 255, 255);
 }
 .last-grid{
 	margin:20px;
@@ -184,7 +187,7 @@ body{
 	position:absolute;
 	width: 0;
 	height: 0;
-	border:20px solid #FFF;
+	border:20px solid  #f7c10a;
 	border-bottom: 0 solid rgba(0, 0, 0, 0)!important;
 	border-right: 15px solid rgba(0, 0, 0, 0)!important;
 	border-left: 15px solid rgba(0, 0, 0, 0)!important;
@@ -295,9 +298,9 @@ body{
 }
 .footer-grid h3{
 	font-size: 1.5em;
-	color: #fff;
+	color: #f7c10a;
 	text-transform: uppercase;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'DM Serif Text', serif;
 	margin-bottom: 20px;
 }
 .footer-grid p{
@@ -382,7 +385,7 @@ body{
 	text-transform: uppercase;
 	font-size: 1.2em;
 	font-family: 'Roboto', sans-serif;
-	color:#009175;
+	color:#000000;
 	transition: 0.5s ease;
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
